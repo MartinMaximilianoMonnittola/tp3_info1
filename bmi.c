@@ -21,6 +21,13 @@ int main()
     // Calculo de indice IMC
     imc = (peso)/(altura * altura);
 
+    printf("\tÍndice| Condición\n");
+    printf("-------------------------------------\n");
+    printf("\t<18.5 | Bajo peso\n");
+    printf("\t18.5 a 24.9 | Normal\n");
+    printf("\t25.0 a 29.9 | Sobrepeso\n");
+    printf("\t>=30| Obesidad\n");
+
     printf("Su índice de masa corporal es: %f \n", imc);
 
     if (imc < 18.5) {
